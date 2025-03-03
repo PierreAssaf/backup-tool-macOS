@@ -31,7 +31,7 @@ This shell script allows you to **compress and back up** any file or directory, 
    Each backup archive includes a unique timestamp, preventing accidental overwrites.
 
 ## Requirements
-- **Unix-like environment** (macOS, it **may not work properly on Linux** due to differences in certain commands
+- **Unix-like environment** (macOS, it **may not work properly on Linux** due to differences in certain commands)
 - `tar` (for creating archives)
 - `cron` (for scheduling backups)
 - `realpath` (for finding the script's absolute path, usually installed by default)
